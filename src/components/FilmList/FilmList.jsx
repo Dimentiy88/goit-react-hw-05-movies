@@ -6,7 +6,7 @@ const FilmsList = ({ movies }) => {
   const location = useLocation();
   return (
     <ListFilms>
-      {movies.map(({ id, title, name, poster_path }) => (
+      {movies.map(({ id, title, name, poster_path, original_title }) => (
         <ItemFilms key={id}>
           <Link to={`/movies/${id}`} state={{ from: location }}>
             {poster_path ? (
@@ -19,8 +19,11 @@ const FilmsList = ({ movies }) => {
               <Placeholder title={`${title} poster`} />
             )}
 
-            <title>{title ? title : name}</title>
+            {/* <title>{title ? title : name}</title> */}
           </Link>
+          <p state={{ from: location }} to={`/movies/${id}`}>
+            {original_title}
+          </p>
         </ItemFilms>
       ))}
     </ListFilms>
