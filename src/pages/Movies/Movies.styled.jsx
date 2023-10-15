@@ -1,1 +1,1 @@
-display: inline - flex;
+
