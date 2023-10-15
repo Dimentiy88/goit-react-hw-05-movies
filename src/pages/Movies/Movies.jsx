@@ -8,6 +8,7 @@ import FilmsList from 'components/FilmList/FilmList';
 const Movies = () => {
   const [movies, setMovies] = useState([]);
   const [searchParams, setSearchParams] = useSearchParams();
+  console.log(Movies);
 
   useEffect(() => {
     const currentQuery = searchParams.get('query');
