@@ -10,7 +10,7 @@ export const GoBackLink = styled.span`
     content: '';
     display: block;
 
-    border-color: #ffc700;
+    border-color: #ff0000;
     border-style: solid;
     border-width: 0 0 2px 2px;
     height: 6px;
@@ -25,12 +25,12 @@ export const GoBackLink = styled.span`
   }
 
   span {
-    color: #ffc700;
+    color: #ff0000;
   }
 
   :hover,
   :focus {
-    color: #ffc700;
+    color: #ff0000;
     a::before {
       border-color: white;
     }
@@ -88,13 +88,13 @@ export const StyledList = styled.ul`
 `;
 export const ListItem = styled.li`
   span {
-    color: #ffc700;
+    color: #ff0000;
   }
 
   a:hover,
   a:focus,
   a:active {
-    color: #ffc700;
+    color: #ff0000;
     span {
       color: white;
     }

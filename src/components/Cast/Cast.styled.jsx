@@ -23,6 +23,6 @@ export const ListItem = styled.li`
     border-radius: 8px;
   }
   span {
-    color: #ffc700;
+    color: #6671e5;
   }
 `;

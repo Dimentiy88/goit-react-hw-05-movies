@@ -19,11 +19,8 @@ const FilmsList = ({ movies }) => {
               <Placeholder title={`${title} poster`} />
             )}
 
-            {/* <title>{title ? title : name}</title> */}
+            <title>{title ? title : name}</title>
           </Link>
-          <p state={{ from: location }} to={`/movies/${id}`}>
-            {original_title}
-          </p>
         </ItemFilms>
       ))}
     </ListFilms>
