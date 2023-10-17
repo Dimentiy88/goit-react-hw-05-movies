@@ -13,7 +13,7 @@ const Home = () => {
 
   return (
     <>
-      <h1>Trending today</h1>
+      <h1 style={{ textAlign: 'center' }}>Trending today</h1>
       <FilmsList movies={movies} />
     </>
   );

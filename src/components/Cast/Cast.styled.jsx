@@ -12,7 +12,6 @@ export const ListItem = styled.li`
   padding: 6px;
   max-width: min-content;
   background-color: #2a2a2a;
-  border-radius: 14px;
 
   :not(:last-child) {
     margin-bottom: 6px;
@@ -20,7 +19,6 @@ export const ListItem = styled.li`
 
   img {
     max-width: 182px;
-    border-radius: 8px;
   }
   span {
     color: #6671e5;

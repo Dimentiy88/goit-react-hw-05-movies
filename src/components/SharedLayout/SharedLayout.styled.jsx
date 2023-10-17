@@ -17,10 +17,16 @@ export const NavList = styled.ul`
   gap: 50px;
   padding: 14px;
 
-  background: rgba(255, 255, 255, 0.1);
+  background: linear-gradient(
+    315deg,
+    rgb(255 255 255 / 28%) 5%,
+    rgb(58 28 28 / 70%) 38%,
+    rgb(197 17 17 / 70%) 52%,
+    rgb(38 36 35 / 52%) 73%
+  );
   background-blend-mode: overlay;
   backdrop-filter: blur(50px);
-  border-radius: 20px;
+  // border-radius: 20px;
 `;
 
 export const NavItem = styled.li`
@@ -30,7 +36,7 @@ export const NavItem = styled.li`
 
   a:hover,
   a:focus {
-    color: #ffc700;
+    color: #ff0000;
     span {
       color: white;
     }

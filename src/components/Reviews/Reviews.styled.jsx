@@ -8,14 +8,13 @@ export const ListItem = styled.li`
   font-size: 14px;
   padding: 6px;
   background-color: #2a2a2a;
-  border-radius: 14px;
 
   :not(:last-child) {
     margin-bottom: 12px;
   }
 
   span {
-    color: #ffc700;
+    color: #6671e5;
   }
 `;
 export const ReviewsDescr = styled.p`

@@ -25,4 +25,8 @@ export const FilmsItem = styled.li`
     display: block;
     padding: 16px 16px;
   }
+
+  h1 {
+    text-align: center;
+  }
 `;
